@@ -19,15 +19,34 @@ function addToTable(item){
                         ` 
 }
 // || inp.value == `${book.author}`||inp.value == `${book.year}`||inp.value == `${book.genre}`||inp.value == `${book.pages}`||inp.value == `${book.publisher}`||inp.value == `${book.isbn}`
-btn.addEventListener('click',()=>{
-
-   books.forEach(book => {
-   });
-})
-
-
+ function search(word){
+    books.forEach(book=>{
+        
+    }) 
+ }
 
 
+
+// btn.addEventListener('click',()=>{
+//     let search
+// //    books.forEach(book => {
+    
+// //    });
+// })
+
+// if(inp.value == `${book.title}`){
+//     tbody.innerHTML = `
+//     <tr>
+//         <td>${book.title}</td>
+//         <td>${book.author}</td>
+//         <td>${book.year}</td>
+//         <td>${book.genre}</td>
+//         <td>${book.pages}</td>
+//         <td>${book.publisher}</td>
+//         <td>${book.isbn}</td>
+//     </tr>
+//    ` 
+// }
 
 
 
